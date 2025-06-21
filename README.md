@@ -64,19 +64,9 @@
    - 克隆命令：`git clone https://www.modelscope.cn/qwen/Qwen-7B-chat.git`
    - 克隆过程显示：接收 554 个对象，处理 294 个 delta，过滤 8 个内容，耗时约 1 分 17 秒。
 
-   图片1：显示了成功对`Qwen-7B-Chat` 模型进行 `git clone` 
-   ![image-20250621224008364](C:\Users\86139\AppData\Roaming\Typora\typora-user-images\image-20250621224008364.png)
-
-   图片2，3：显示成功将模型文件夹克隆到本地
-   ![image-20250621224107351](C:\Users\86139\AppData\Roaming\Typora\typora-user-images\image-20250621224107351.png)
-   ![image-20250621224118238](C:\Users\86139\AppData\Roaming\Typora\typora-user-images\image-20250621224118238.png)
-
 2. **ChatGLM3 - 6B 模型克隆**
 
    - 克隆命令：`git clone https://www.modelscope.cn/zhipuAI/chatglm3-6b.git`
-
-   图片1：显示克隆后文件夹状态，显示已经成功将模型克隆到了本地（由于克隆后终端刷新，保存的终端代码无法调出，所以暂时用这种方式进行展示成功克隆）
-   ![image-20250621224719886](C:\Users\86139\AppData\Roaming\Typora\typora-user-images\image-20250621224719886.png)
 
 ## 三、模型测试与结果
 
@@ -103,9 +93,6 @@
    - **回答**：通过阅读句子 “可她就是不说”，可以看出明明对白白有好感，但是没有明确表示出来。故选：C. 无法确定。
    - **分析**：模型回答存在矛盾，前半部分认为 “明明对白白有好感”，但结论却选 “无法确定”，逻辑一致性不足。
 
-   测试截图：
-   ![屏幕截图 2025-06-21 145849](C:\Users\86139\Pictures\Screenshots\屏幕截图 2025-06-21 145849.png)
-
 ### （三）ChatGLM3-6B 模型测试结果
 
 1. **多义句理解测试**
@@ -116,9 +103,6 @@
    - **问题**：同上
    - **回答**：这句话里，明明喜欢白白。明明明白白白喜欢他，可她就是不说。
    - **分析**：模型直接判定 “明明喜欢白白”，但未解释推理过程，且对句子结构的理解可能存在偏差，实际句子更可能表达 “白白喜欢他，明明明白这一点但不说”。
-
-​	测试截图： 
-![屏幕截图 2025-06-21 154431](C:\Users\86139\Pictures\Screenshots\屏幕截图 2025-06-21 154431.png)	
 
 ## 四、模型横向对比分析
 
